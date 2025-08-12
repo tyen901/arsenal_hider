@@ -19,6 +19,7 @@ class CfgFunctions {
         class functions {
             file = "\z\ace\addons\arsenal_hider\functions";
             class hideItems {};
+            class loadHiddenItems {};
         };
     };
 };

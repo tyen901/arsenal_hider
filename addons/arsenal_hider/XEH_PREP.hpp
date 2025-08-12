@@ -1,1 +1,2 @@
 PREP(hideItems);
+PREP(loadHiddenItems);

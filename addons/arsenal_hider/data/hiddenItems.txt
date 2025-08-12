@@ -1,0 +1,11 @@
+# Arsenal Hidden Items Configuration
+# Lines starting with # or // are comments and will be ignored
+# Each line should contain one item classname
+
+arifle_Katiba_F
+srifle_DMR_07_blk_F
+arifle_TRG21_F
+H_PASGT_basic_black_F
+arifle_MX_SW_F
+
+# Add more items below as needed
