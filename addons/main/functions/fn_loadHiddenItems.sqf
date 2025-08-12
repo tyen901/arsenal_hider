@@ -15,7 +15,7 @@
  */
 
 private _filePath = "data\hiddenItems.txt";
-private _fullPath = format ["\z\ace\addons\arsenal_hider\%1", _filePath];
+private _fullPath = format ["z\tc\addons\arsenal_hider\main\%1", _filePath];
 diag_log format ["[Arsenal Hider] Loading blacklist from: %1", _fullPath];
 
 private _fileContent = loadFile _fullPath;

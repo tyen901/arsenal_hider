@@ -1,6 +1,6 @@
 name = "arsenal_hider"
 author = "Tyen"
-prefix = "tc"
+prefix = "arsenal_hider"
 mainprefix = "z"
 
 [version]
