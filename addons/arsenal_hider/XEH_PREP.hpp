@@ -1,2 +1,0 @@
-PREP(hideItems);
-PREP(loadHiddenItems);

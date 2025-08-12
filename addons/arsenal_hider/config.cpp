@@ -4,7 +4,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = 2.02;
-        requiredAddons[] = {"ace_arsenal"};
+        requiredAddons[] = {"ace_arsenal", "cba_main", "cba_xeh"};
         author = "Tyen";
         authors[] = {"Tyen"};
         url = "";
@@ -14,18 +14,6 @@ class CfgPatches {
     };
 };
 
-class CfgFunctions {
-    class arsenal_hider {
-        class functions {
-            file = "\z\ace\addons\arsenal_hider\functions";
-            class hideItems {};
-            class loadHiddenItems {};
-        };
-    };
-};
+#include "CfgEventHandlers.hpp"
 
-class Extended_PostInit_EventHandlers {
-    class arsenal_hider {
-        init = "if (hasInterface) then { ['ace_arsenal_displayOpened', { params ['_display']; private _box = ace_arsenal_currentBox; if (!isNull _box) then { [_box] call arsenal_hider_fnc_hideItems; }; }] call CBA_fnc_addEventHandler; };";
-    };
-};
+

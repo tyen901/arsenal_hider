@@ -1,3 +1,4 @@
+#define MAINPREFIX z
 #define PREFIX ace
 #define COMPONENT arsenal_hider
 
