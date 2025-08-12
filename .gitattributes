@@ -1,0 +1,32 @@
+[attr]lock filter=lfs diff=lfs merge=binary -text lockable
+[attr]lockonly lockable
+[attr]lfs filter=lfs diff=lfs merge=binary -text
+[attr]lfstext filter=lfs diff=lfstext merge=lfstext -text
+# Arma 3 files
+*.pbo filter=lfs diff=lfs merge=binary -text lockable
+*.p3d filter=lfs diff=lfs merge=binary -text lockable
+*.paa filter=lfs diff=lfs merge=binary -text lockable
+*.ogg filter=lfs diff=lfs merge=binary -text lockable
+*.bin filter=lfs diff=lfs merge=binary -text lockable
+*.wss filter=lfs diff=lfs merge=binary -text lockable
+
+# Art files
+*.png filter=lfs diff=lfs merge=binary -text lockable
+*.jpg filter=lfs diff=lfs merge=binary -text lockable
+*.jpeg filter=lfs diff=lfs merge=binary -text lockable
+*.tga filter=lfs diff=lfs merge=binary -text lockable
+*.tif filter=lfs diff=lfs merge=binary -text lockable
+*.tiff filter=lfs diff=lfs merge=binary -text lockable
+*.gif filter=lfs diff=lfs merge=binary -text lockable
+*.bmp filter=lfs diff=lfs merge=binary -text lockable
+*.exr filter=lfs diff=lfs merge=binary -text lockable
+*.fbx filter=lfs diff=lfs merge=binary -text lockable
+*.blend filter=lfs diff=lfs merge=binary -text lockable
+*.max filter=lfs diff=lfs merge=binary -text lockable
+*.ma filter=lfs diff=lfs merge=binary -text lockable
+*.mb filter=lfs diff=lfs merge=binary -text lockable
+*.ase filter=lfs diff=lfs merge=binary -text lockable
+*.3ds filter=lfs diff=lfs merge=binary -text lockable
+*.obj filter=lfs diff=lfs merge=binary -text lockable
+*.mtl filter=lfs diff=lfs merge=binary -text lockable
+*.psd filter=lfs diff=lfs merge=binary -text lockable
