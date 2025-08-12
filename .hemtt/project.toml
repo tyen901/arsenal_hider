@@ -2,3 +2,8 @@ name = "arsenal_hider"
 author = "Tyen"
 prefix = "tc"
 mainprefix = "z"
+
+[version]
+major = 1
+minor = 0
+patch = 0
