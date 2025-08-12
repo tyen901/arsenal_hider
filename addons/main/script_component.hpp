@@ -1,5 +1,5 @@
 #define MAINPREFIX z
-#define PREFIX ace
+#define PREFIX tc
 #define COMPONENT arsenal_hider
 
 #include "\x\cba\addons\main\script_macros_common.hpp"
