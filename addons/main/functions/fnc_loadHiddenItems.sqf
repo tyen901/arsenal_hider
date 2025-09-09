@@ -1,17 +1,7 @@
 #include "..\script_component.hpp"
 /*
  * Author: Tyen
- * Loads blacklisted items from configuration file.
- *
- * Arguments:
- * None
- *
- * Return Value: Array of blacklisted item classnames <ARRAY>
- *
- * Example:
- * private _blacklist = [] call arsenal_hider_fnc_loadHiddenItems
- *
- * Public: Yes
+ * Load blacklisted item classnames from data/hiddenItems.txt. Returns array.
  */
 
 private _filePath = "data\hiddenItems.txt";
