@@ -1,19 +1,18 @@
 class CfgPatches {
-    class arsenal_hider {
+    class arsenal_hider_main {
         name = "Arsenal Hider";
+        author = "Tyen";
+        url = "";
         units[] = {};
         weapons[] = {};
-        requiredVersion = 2.02;
-        requiredAddons[] = {"ace_arsenal", "cba_main", "cba_xeh"};
-        author = "Tyen";
-        authors[] = {"Tyen"};
-        url = "";
+        requiredVersion = 2.10;
+        requiredAddons[] = {"cba_main", "ace_arsenal"};
         version = "1.0.0";
-        versionStr = "1.0.0";
-        versionAr[] = {1,0,0};
     };
 };
 
-#include "CfgEventHandlers.hpp"
-
-
+class Extended_PostInit_EventHandlers {
+    class arsenal_hider_main {
+        init = "call compile preprocessFileLineNumbers '\\z\\arsenal_hider\\addons\\main\\XEH_postInit.sqf'";
+    };
+};
