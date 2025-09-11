@@ -1,3 +1,6 @@
+// CBA macros for path helpers
+#include "script_component.hpp"
+
 class CfgPatches {
     class arsenal_hider_main {
         name = "Arsenal Hider";
@@ -13,6 +16,7 @@ class CfgPatches {
 
 class Extended_PostInit_EventHandlers {
     class arsenal_hider_main {
-        init = "call compile preprocessFileLineNumbers '\\z\\arsenal_hider\\addons\\main\\XEH_postInit.sqf'";
+        // Wrap path in single quotes inside the quoted string to avoid nested quotes
+        init = QUOTE(call compile preprocessFileLineNumbers 'PATHTOF(XEH_postInit.sqf)');
     };
 };
